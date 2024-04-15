@@ -42,7 +42,7 @@ body {
   font-weight: 600;
   line-height: 20px;
   padding: 14px 120px;
-  position: relative;
+  position: absolute;
   text-align: center;
   text-decoration: none;
   user-select: none;
@@ -50,6 +50,7 @@ body {
   touch-action: manipulation;
   vertical-align: middle;
   white-space: nowrap;
+  bottom: 110px;
 }
 
 .buttons:focus:not(:focus-visible):not(.focus-visible) {
@@ -95,7 +96,7 @@ body {
   font-weight: 600;
   line-height: 20px;
   padding: 14px 120px;
-  position: relative;
+  position: absolute;
   text-align: center;
   text-decoration: none;
   user-select: none;
@@ -103,6 +104,7 @@ body {
   touch-action: manipulation;
   vertical-align: middle;
   white-space: nowrap;
+  bottom: 10px;
 }
 
 .buttons2:focus:not(:focus-visible):not(.focus-visible) {
@@ -134,35 +136,55 @@ body {
 
 .texts {
   left: 225px;
-  top: 110px;
-  position: absolute;
+  top: 90px;
+  position: relative;
   text-align: center;
-  font-size: 130%;
+  font-size: 150%;
 }
 .title {
-  margin-left: 40px;
+  position: absolute;
+  margin-left: 110px;
   margin-bottom: 0%;
-  margin-top: 30px;
+  margin-top: 55px;
+  color: white;
+  
 }
 .always {
-  margin-left: 100px;
-  margin-top: 0%;
+  position: absolute;
+  margin-left: 30px;
+  margin-top: 90px;
+  color: white;
+  
 }
 
 .logo {
   position: absolute;
-  top: 130px;
-  left: 25%;
+  top: 10px;
+  left: 1%;
   width: 110px;
   height: 80px;
 }
 
 .group {
   text-align: center;
-  position: absolute;
-  top: 260px; /* Adjust top position as needed */
-  right: 260px; /* Adjust right position as needed */
+  position: relative;
+  top: 280px; /* Adjust top position as needed */
+  right: 160px; /* Adjust right position as needed */
   font-size: 200%;
+  color: white;
+}
+
+.are {
+  position: absolute;
+  left: 410px;
+  bottom: 163px;
+  font-size: 30px;
+}
+.or {
+  position: absolute;
+  left: 410px;
+  bottom: 63px;
+  font-size: 30px;
 }
 /*
 .bg1 {
