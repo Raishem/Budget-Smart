@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    background-color: #A5EFC2;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.login {   
+    background-color: #7066a6;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: #333;
+    position: absolute;
+    top: 0;
+    left: 0; /* Position the box on the left side */
+    margin: 0; /* Reset margin */
+    padding: 0; /* Reset padding */
+    height: 745px;
+    width: 550px;
+}
+
+
+.logoo {
+ text-align: center; 
+ position: relative;
+ left: 65px;
+ bottom: 30px;
+}
+
+.logo {
+    width: 100px; /* Adjust width as needed */
+    height: auto;
+    margin-top: 100px;
+    margin-right: 250px;
+}
+
+.texts {
+    position: relative;
+    text-align: center;
+    bottom: 58px;
+    right: 17px;
+}
+.always {
+    position: absolute;
+    top: 20px;
+    left: 130px;
+}
+.title {
+    left: 100px;
+}
+
+.input {
+    position: relative;
+    text-align: center;
+    right: 63px;
+    bottom: 80px;
+}
+
+.ID {
+    position: relative;
+    top: 40px;
+    right: 90px;
+    color: white;
+}
+
+.pass {
+    position: relative;
+    right: 90px;
+    color: white;
+}
+.password {
+    position: relative;
+    bottom: 40px;
+}
+
+.username input,
+.password input {
+    height: 40px; /* Adjust the height as needed */
+    width: 50%;
+    border-radius: 10px;
+}
+input[type="checkbox"] {
+    position: relative;
+    transform: scale(0.5); /* Adjust the scale as needed */
+    right: 50px;
+}
+label[for="agree"] {
+    margin-left: 5px; /* Adjust the margin as needed */
+    position: relative;
+    right: 184px;
+    bottom: 13px;
+}
+
+.loginss {
+    appearance: none;
+    background-color: #542d69;
+    border: 1px solid rgba(27, 31, 35, .15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 14px 120px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+    height: 40px; /* Adjust the height as needed */
+    width: 50%;
+    border-radius: 10px;
+  }
+  
+  .loginss:focus:not(:focus-visible):not(.focus-visible) {
+    box-shadow: none;
+    outline: none;
+  }
+  
+  .loginss:hover {
+    background-color: #2c974b;
+  }
+  
+  .loginss:focus {
+    box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+    outline: none;
+  }
+  
+  .loginss:disabled {
+    background-color: #94d3a2;
+    border-color: rgba(27, 31, 35, .1);
+    color: rgba(255, 255, 255, .8);
+    cursor: default;
+  }
+  
+  .loginss:active {
+    background-color: #298e46;
+    box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+  }
+  .loginss h5 {
+    position: relative;
+    bottom: 40px;
+    right: 18px;
+  }
