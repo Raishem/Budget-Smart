@@ -21,7 +21,7 @@ body {
     font-size: 18px;
     color: #333;
     display: inline-block;
-    margin-top: 6%;
+    margin-top: 1%;
     position: relative;
 }
 
@@ -135,7 +135,7 @@ body {
 
 
 .texts {
-  left: 225px;
+  left: 190px;
   top: 90px;
   position: relative;
   text-align: center;
@@ -176,21 +176,23 @@ body {
 
 .are {
   position: absolute;
-  left: 410px;
+  left: 360px;
   bottom: 163px;
   font-size: 30px;
 }
 .or {
   position: absolute;
-  left: 410px;
+  left: 360px;
   bottom: 63px;
   font-size: 30px;
 }
-/*
+
 .bg1 {
-  position: relative;
+  position: absolute;
   text-align: center;
-  width: 60%;
-  height: 120%;
-  bottom: 50px;
-}**/
+  width: 550px;
+  height: 620px;
+  right: 410px;
+  bottom: 20px;
+  
+}
