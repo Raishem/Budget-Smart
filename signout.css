@@ -46,6 +46,11 @@ body {
 
 .dashboard {
     text-decoration: none;
+    color: rgb(57, 35, 78);
+}
+
+.dashboard:hover {
+    background: #A5EFC2;
     color: white;
 }
 
@@ -54,9 +59,19 @@ body {
     color: white;
 }
 
+.expenses:hover {
+    background: #A5EFC2;
+    color: rgb(57, 35, 78);
+}
+
 .savings {
     text-decoration: none;
     color: white;
+}
+
+.savings:hover {
+    background: #A5EFC2;
+    color: rgb(57, 35, 78);
 }
 
 .progress {
@@ -64,9 +79,19 @@ body {
     color: white;
 }
 
+.progress:hover {
+    background: #A5EFC2;
+    color: rgb(57, 35, 78);
+}
+
 .settings {
     text-decoration: none;
     color: white;
+}
+
+.settings:hover {
+    background: #A5EFC2;
+    color: rgb(57, 35, 78);
 }
 
 .signout {
@@ -74,7 +99,17 @@ body {
     color: rgb(57, 35, 78);
 }
 
+.signout:hover {
+    background: #A5EFC2;
+    color: white;
+}
+
 .helpsupport {
     text-decoration: none;
     color: white;
+}
+
+.helpsupport:hover {
+    background: #A5EFC2;
+    color: rgb(57, 35, 78);
 }

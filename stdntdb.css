@@ -5,6 +5,7 @@ body {
 
 .headerr {
     text-align: center;
+    position: relative;
 }
 
 .texts {
@@ -53,6 +54,7 @@ body {
 
 .dashboard:hover {
     background: #A5EFC2;
+    color: white;
 }
 
 .expenses {
@@ -62,6 +64,7 @@ body {
 
 .expenses:hover {
     background: #A5EFC2;
+    color: rgb(57, 35, 78);
 }
 
 .savings {
@@ -71,6 +74,7 @@ body {
 
 .savings:hover {
     background: #A5EFC2;
+    color: rgb(57, 35, 78);
 }
 
 .progress {
@@ -80,6 +84,7 @@ body {
 
 .progress:hover {
     background: #A5EFC2;
+    color: rgb(57, 35, 78);
 }
 
 .settings {
@@ -89,6 +94,7 @@ body {
 
 .settings:hover {
     background: #A5EFC2;
+    color: rgb(57, 35, 78);
 }
 
 .signout {
@@ -98,6 +104,7 @@ body {
 
 .signout:hover {
     background: #A5EFC2;
+    color: rgb(57, 35, 78);
 }
 
 .helpsupport {
@@ -107,4 +114,12 @@ body {
 
 .helpsupport:hover {
     background: #A5EFC2;
+    color: rgb(57, 35, 78);
+}
+
+#urname {
+    position: absolute;
+    background-color: #ad53a6;
+    height: 100px;
+    bottom: 100px;
 }

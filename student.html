@@ -37,15 +37,15 @@
     <div class="input">
 <p class="ID"> Student ID </p><br>
 <div class="username">
-    <input type="text" placeholder=" Enter your School ID"><br>
+    <input type="text" placeholder=" Enter your School ID" id="username"><br>
    <p class="pass"> Password </p><br>
     <div class="password">
-        <input type="text" placeholder=" Enter your Password"><br>
+        <input type="text" placeholder=" Enter your Password" id="password"><br>
         
         <input type="checkbox" id="agree">
 <label for="agree">Remember me</label>
 
-<a href="stdntdb.html" class="loginss" role="button"><h5>LOGIN</h5></a> <br><br>
+<button type="submit" onclick="passCheck()" class="loginss" role="button"><h5>LOGIN</h5></button> <br><br>
 <a href="forgot.html" class="forgot"><p>Forgot Password?</p></a>
 <a href="index.html" class="back"><p>← Back</p></a>
 </div>
@@ -53,6 +53,6 @@
 
 </div>
 </div>  
-    
+    <script src="stdnt.js"></script>
 </body>
 </html>
