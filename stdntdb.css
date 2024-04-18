@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    background-color: #A5EFC2;
+}
+
+.headerr {
+    text-align: center;
+}
+
+.texts {
+    left: 100px;
+    bottom: 5px;
+    position: relative;
+    text-align: center;
+    font-size: 130%;
+}
+
+.title {
+    text-align: justify;
+    color: white;
+}
+
+.logo {
+    position: absolute;
+    right: 150px;
+    bottom: 530px;
+    width: 200px;
+    height: 120px;
+}
+
+.sideboard {
+    background-color: #7066a6;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    height: 613px;
+    width: 300px;
+    
+}
+
+.menus {
+    font-size: 120%;
+    margin-left: 30px;
+}
+
+
+.dashboard {
+    text-decoration: none;
+    color: rgb(57, 35, 78);
+}
+
+.dashboard:hover {
+    background: #A5EFC2;
+}
+
+.expenses {
+    text-decoration: none;
+    color: white;
+}
+
+.expenses:hover {
+    background: #A5EFC2;
+}
+
+.savings {
+    text-decoration: none;
+    color: white;
+}
+
+.savings:hover {
+    background: #A5EFC2;
+}
+
+.progress {
+    text-decoration: none;
+    color: white;
+}
+
+.progress:hover {
+    background: #A5EFC2;
+}
+
+.settings {
+    text-decoration: none;
+    color: white;
+}
+
+.settings:hover {
+    background: #A5EFC2;
+}
+
+.signout {
+    text-decoration: none;
+    color: white;
+}
+
+.signout:hover {
+    background: #A5EFC2;
+}
+
+.helpsupport {
+    text-decoration: none;
+    color: white;
+}
+
+.helpsupport:hover {
+    background: #A5EFC2;
+}

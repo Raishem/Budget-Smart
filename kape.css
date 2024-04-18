@@ -2,10 +2,13 @@
     position: absolute;
     justify-content: center;
 }
-.kepeee h2 {
+.kapeee h2 {
     float: right;
     justify-content: center;
     position:relative;
+    font-size: 400%;
+    left: 90px;
+    top: 200px;
 }
 .kapee {
     height: 600px;

@@ -6,13 +6,13 @@
 
 body {
     background-color: #c4b4ad;
+    padding: 40px;
 }
 
 .intro {
-    width: 70%;
-    height: 600px; /* Adjust height as needed */
-    background-color: rgba(64, 35, 35, 0.5);
-    border: 2px solid #333;
+    width: 50%;
+    height: 500px; /* Adjust height as needed */
+    background-color: rgba(32, 7, 7, 0.7);
     border-radius: 10px;
     padding: 20px;
     box-sizing: border-box;
@@ -38,10 +38,10 @@ body {
   cursor: pointer;
   display: inline-block;
   font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 600;
   line-height: 20px;
-  padding: 14px 120px;
+  padding: 14px 107px;
   position: absolute;
   text-align: center;
   text-decoration: none;
@@ -135,64 +135,58 @@ body {
 
 
 .texts {
-  left: 190px;
-  top: 90px;
+  left: 180px;
+  top: 60px;
   position: relative;
   text-align: center;
   font-size: 150%;
 }
 .title {
-  position: absolute;
-  margin-left: 110px;
-  margin-bottom: 0%;
-  margin-top: 55px;
+  text-align: justify;
   color: white;
   
 }
 .always {
-  position: absolute;
-  margin-left: 30px;
-  margin-top: 90px;
+  text-align: justify;
   color: white;
-  
+  font-size: medium;
 }
 
 .logo {
   position: absolute;
-  top: 10px;
-  left: 1%;
-  width: 110px;
-  height: 80px;
+  bottom: 80px;
+  right: 410px;
+  width: 240px;
+  height: 160px;
 }
 
 .group {
   text-align: center;
   position: relative;
-  top: 280px; /* Adjust top position as needed */
-  right: 160px; /* Adjust right position as needed */
-  font-size: 200%;
+  top: 100px; /* Adjust top position as needed */
+  right: 170px; /* Adjust right position as needed */
+  font-size: 160%;
   color: white;
 }
 
 .are {
   position: absolute;
-  left: 360px;
+  left: 238px;
   bottom: 163px;
-  font-size: 30px;
+  font-size: 23px;
 }
 .or {
   position: absolute;
-  left: 360px;
-  bottom: 63px;
-  font-size: 30px;
+  left: 375px;
+  bottom: 70px;
+  font-size: 25px;
 }
 
 .bg1 {
   position: absolute;
   text-align: center;
-  width: 550px;
+  width: 620px;
   height: 620px;
-  right: 410px;
+  right: 375px;
   bottom: 20px;
-  
 }

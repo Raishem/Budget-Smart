@@ -3,9 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="admin.css">
+    <link rel="stylesheet" href="admin.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <title>Admin Login Page</title>
 </head>
 <body>
+
+
+    
+    <form action="stdntlogin.php" method="POST">
+        <input type="text" name="student_id" placeholder="Enter your School ID" required><br>
+        <input type="password" name="password" placeholder="Enter your Password" required><br>
+        <input type="checkbox" name="remember" id="remember">
+        <label for="remember">Remember me</label><br>
+        <button type="submit">Login</button>
+    </form>
+
+
+
+
+
+    <img class="bg" src="images/bg1.png" alt="pc">
+<div class="container">
+    <div class="login">
+        <div class="logoo">
+        <img class="logo" src="images/logo.png" alt="Logo">
+    <div class="texts">
+    <h3 class="title">Budget Smart</h3>
+    <p class="always">Always Budget Smartly!</p><br><br>
+    </div>
+
+    <div class="input">
+<p class="ID"> Admin ID </p><br>
+<div class="username">
+    <input type="text" placeholder=" Enter the Admin ID"><br>
+   <p class="pass"> Password </p><br>
+    <div class="password">
+        <input type="text" placeholder=" Enter the Password"><br>
+        
+        <input type="checkbox" id="agree">
+<label for="agree">Remember me</label>
+
+<a href="kape.html" class="loginss" role="button"><h5>LOGIN</h5></a> <br><br>
+<a href="forgot.html" class="forgot"><p>Forgot Password?</p></a>
+<a href="index.html" class="back"><p>← Back</p></a>
+</div>
+</div>
+
+</div>
+</div>  
     
 </body>
 </html>
