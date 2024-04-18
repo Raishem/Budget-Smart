@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="admin.css">
-    <link rel="stylesheet" href="admin.js">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <title>Admin Login Page</title>
 </head>
@@ -37,15 +36,15 @@
     <div class="input">
 <p class="ID"> Admin ID </p><br>
 <div class="username">
-    <input type="text" placeholder=" Enter the Admin ID"><br>
+    <input type="text" placeholder=" Enter the Admin ID" id="username"><br>
    <p class="pass"> Password </p><br>
     <div class="password">
-        <input type="text" placeholder=" Enter the Password"><br>
+        <input type="text" placeholder=" Enter the Password" id="password"><br>
         
         <input type="checkbox" id="agree">
 <label for="agree">Remember me</label>
 
-<a href="kape.html" class="loginss" role="button"><h5>LOGIN</h5></a> <br><br>
+<button type="submit" onclick="passCheck()" class="loginss" role="button"><h5>LOGIN</h5></button> <br><br>
 <a href="forgot.html" class="forgot"><p>Forgot Password?</p></a>
 <a href="index.html" class="back"><p>← Back</p></a>
 </div>
@@ -53,6 +52,6 @@
 
 </div>
 </div>  
-    
+    <script src="admin.js"></script>
 </body>
 </html>

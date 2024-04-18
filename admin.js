@@ -25,7 +25,7 @@ class User {
     }
 
     isValid() {
-        if(this.Username = 'student' && this.Password == 'pass') {
+        if(this.Username = 'admin' && this.Password == 'pass') {
             return true;
         }
         return false;
@@ -40,8 +40,8 @@ function passCheck () {
      const user = new User(username, password);
 
      if(user.isValid()) {
-       window.location.href = 'stdntdb.html';
+       window.location.href = 'admindb.html';
      } else {
-        alert('Incorrect School ID or Password! 😥');
+        alert('Incorrect Admin ID or Password! 😥');
      }
 }
