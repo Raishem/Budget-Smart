@@ -8,10 +8,11 @@
 </head>
 <body>
     <div class="container">
-            <div class="headerr">
-                <p id="urname"> &#x1F514; Your Name &#xf2bd;</p>
-                <h2>DashBoard</h2>
-            </div>
+        <div class="headerr">
+            <p id="urname"> &#x1F514; Your Name &#xf2bd;</p>
+            <h2>Dashboard</h2>
+        </div>
+
         <div class="sideboard">
             <div class="logoo">
                 <img class="logo" src="images/logoo.png" alt="Logo">
@@ -26,11 +27,35 @@
                 <a href="savings.html" class="savings"><h4>Savings</h4></a>
                 <a href="progress.html" class="progress"><h4>Progress</h4></a>
                 <a href="setting.html" class="settings"><h4>Account Settings</h4></a>
-                <a href="index.html" class="signout"><h4>Sign Out</h4></a>
+                <div class="signout" id="signout"><h4>Sign Out</h4></div>
+
+                <div class="out" id="out">
+                    <div class="out-body">
+                        <img src="images/shemshi.png" alt="shemshi">
+                        <h2>Are you sure you want to sign out?</h2>
+                        <button id="nobtn">No</button>
+                        <a href="index.html">
+                            <button id="yesbtn">Yes</button>
+                        </a>
+                    </div>
+                </div>
+
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
                 <br>
                 <a href="helpsupport.html" class="helpsupport"><h4>Help & Support</h4></a>
             </div>
         </div>
+
+        <div class="dashboardd">
+            <img src="https://static-00.iconduck.com/assets.00/profile-circle-icon-2048x2048-cqe5466q.png" id="gpfp">
+            <h2 id="greetings">Hello, Your Name</h2>
+        </div>
     </div>
+
+    <script src="signoutpop.js"></script>
 </body>
 </html>
