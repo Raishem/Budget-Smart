@@ -60,6 +60,8 @@ body {
 
 .buttons:hover {
   background-color: #2c974b;
+  transform: scale(1.1);
+  transition: transform 0.2s ease-out;
 }
 
 .buttons:focus {
@@ -114,6 +116,8 @@ body {
 
 .buttons2:hover {
   background-color: #2c974b;
+  transform: scale(1.1);
+  transition: transform 0.2s ease-out;
 }
 
 .buttons2:focus {
