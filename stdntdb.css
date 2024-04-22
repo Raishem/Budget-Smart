@@ -203,7 +203,7 @@ button:active {
 
 
 .dashboardd {
-    position: absolute;
+    position: relative;
 }
 
 #gpfp {
@@ -216,7 +216,7 @@ button:active {
 
 #greetings {
     margin-left: 520px;
-    top: 90px;
-    text-align: justify;
+    top: 120px;
+  
     position: absolute;
 }
